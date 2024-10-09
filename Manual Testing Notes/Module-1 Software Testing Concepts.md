@@ -325,8 +325,8 @@ Non- Incremental Integration Testing
 --
 - Adding all the modules in a single shot and test the data flow between modules.
 Drawbacks:
- 1) We might miss data flow between some of the modules.
- 2) If you find any defect we can't understand the root cause of defect.
+  - We might miss data flow between some of the modules.
+  - If you find any defect we can't understand the root cause of defect.
 
 System Testing
 --
@@ -488,7 +488,7 @@ Non-Functional Testing
 ## Functional Testing vs Non-functional Testing
 
 |Functional Testing|                     Non-Functional Testing                        |
-|----------------|-------------------------------|-----------------------------|
+|----------------|-----------------------------|
 | Validates functionality of Software. |Verify the performance, security, reliability of the software.         |
 |  Functionality describes what software does.      |Non-Functionality describes how   software works.       |
 | Concentrates on user requirement.| Concentrates on user expectation.|
