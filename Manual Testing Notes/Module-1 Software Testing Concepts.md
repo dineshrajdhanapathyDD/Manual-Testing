@@ -535,7 +535,8 @@ Example: Re-Testing Vs Regression Testing
 Smoke Vs Sanity Testing
 --
  - Smoke and Sanity Testing come into the picture after build release.
-|         Smoke Testing | Sanity Testing|
+
+| Smoke Testing |Sanity Testing|
 |---------------|--------------|
 |Smoke Test is done to make sure the build we received from the development team is testable/stable or not|Sanity Test is done during the release phase to check for the main functionalities of the application without going deeper.|
 |Smoke Testing is performed by both Developers and Testers|Sanity Testing is performed by Testers alone|
@@ -649,13 +650,13 @@ END-To-END Testing
 Globalization and Localization Testing
 --
 - Globalization Testing:
-	  - Performed to ensure the system or software application can run in any cultural or local environment.
-	  - Different aspects of the software application are tested to ensure that it supports every language and different attributes.
-	  - It tests the different currency formats, mobile number formats and address formats are supported by the application.
-	  - For example, Facebook.com supports many of the languages and it can be accessed by people of different countries. Hence it is a globalized product.
+	- Performed to ensure the system or software application can run in any cultural or local environment.
+	- Different aspects of the software application are tested to ensure that it supports every language and different attributes.
+	- It tests the different currency formats, mobile number formats and address formats are supported by the application.
+	- For example, Facebook.com supports many of the languages and it can be accessed by people of different countries. Hence it is a globalized product.
   
 - Localization Testing:
-		- Performed to check system or software application for a specific geographical and cultural environment.
-		- Localized product only supports the specific kind of language and is usable only in specific region.
-		- It testes the specific currency format, mobile number format and address format is working properly or not.
-		- For example, Baidu.com supports only the Chinese language and can be accessed only by people of few countries. Hence it is a localized product.
+	- Performed to check system or software application for a specific geographical and cultural environment.
+	- Localized product only supports the specific kind of language and is usable only in specific region.
+	- It testes the specific currency format, mobile number format and address format is working properly or not.
+	- For example, Baidu.com supports only the Chinese language and can be accessed only by people of few countries. Hence it is a localized product.
