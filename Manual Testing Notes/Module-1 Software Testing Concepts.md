@@ -786,12 +786,12 @@ SDLC - Software Development Life Cycle
           
 STLC - Software Testing Life Cycle
 --
-	- Requirement Analysis
-	- Test Planning
-	- Test Desing
-	- Test Execution
-	- Defect/Bug Reporting & Tracking
-	- Test Closure
+- Requirement Analysis
+- Test Planning
+- Test Desing
+- Test Execution
+- Defect/Bug Reporting & Tracking
+- Test Closure
 
 
 ![Screenshot 2024-10-11 172901](https://github.com/user-attachments/assets/b7fc7072-421b-414f-96e6-73cb28f64884)
