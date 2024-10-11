@@ -793,8 +793,223 @@ STLC - Software Testing Life Cycle
 	- Defect/Bug Reporting & Tracking
 	- Test Closure
 
+
 ![Screenshot 2024-10-11 172901](https://github.com/user-attachments/assets/b7fc7072-421b-414f-96e6-73cb28f64884)
 
 
 
 ![Screenshot 2024-10-11 172933](https://github.com/user-attachments/assets/4709a412-edd7-47a8-8164-956ac52cc920)
+
+
+
+
+## Manual Software Testing Part-7
+
+
+Test Plan Contents
+--
+- A Test Plan is a document that describes the test scope, test strategy, objectives, schedule, deliverables and resources required to perform testing for a software product.
+- Test plan template contents:
+  	-  Overview
+    - Scope
+         - Inclusions
+         - Test Environments
+         - Exclusions
+    - Test Strategy
+    - Defect Reporting Procedure
+    - Roles/Responsibilities
+    - Test Schedule
+    - Test Deliverables
+    - Pricing
+    - Entry and Exit Criteria
+    - Suspension and Resumption Criteria
+    - Tools
+    - Risks and Mitigations
+    - Approvals
+
+Use case, Test Scenario & Test Case
+--
+-  **Use Case:**
+	  - Use case describes the requirement.
+	  - Use case contains THREE Items.
+		     -**Actor**, which is the user, which can be a single person or a group of people, interacting with a process.
+		     - **Action**, which is to reach the final outcome
+		     - **Goal/Outcome**, which is the successful user outcome.
+		     
+- **Test Scenario: **
+	  - A possible area to be tested (What to test)
+	  
+- **Test Case: **
+	  - Step by step actions to be performed to validate functionality of AUT (How to test).
+	  - Test case contains test steps, expected result & actual result.
+
+![Screenshot 2024-10-11 192210](https://github.com/user-attachments/assets/ddfcc0f9-fccc-4e72-ad0c-35b60649d414)
+
+Use Case V/s Test Case
+--
+ - **Use Case** - Describes functional requirement, prepared by Business Analyst (BA).
+ - **Test Case** - Describes Test Steps/ Procedure, prepared by Test Engineer.
+
+Test Scenario V/s Test Case
+--
+-  Test Scenario is 'What to be tested' and Test Case is 'How to be tested'.
+
+- **Example: -**
+- Test Scenario: Checking the functionality of Login button
+      - TC1: Click the button without entering username and password.
+      - TC2: Click the button only entering Username.
+      - TC3: Click the button while entering wrong username and wrong password.
+
+Test Suite
+--
+ - Test Suite is group of test cases which belongs to same category.
+
+![Screenshot 2024-10-11 192530](https://github.com/user-attachments/assets/7d7ba9f9-fcc4-4e96-bff1-d0d871ed8aec)
+
+What is Test case?
+--
+ - A Test Case is a set of actions executed to validate particular feature or functionality of your software application.
+
+Test Case Contents
+--
+- Test Case ID
+- Test Case Title
+- Description
+- Pre-condition
+- Priority ( PO, P1,P2,P3)-order
+- Requirement ID
+- Steps/Actions
+- Expected Result
+- Actual Result
+- Test data
+
+Test Case Template
+--
+
+![Screenshot 2024-10-11 193220](https://github.com/user-attachments/assets/15189eda-9f68-47bb-9e25-6b444c747873)
+
+
+Requirement Traceability Matrix(RTM)
+--
+-  **What is RTM (Requirement Traceability Matrix)?**
+	 - RTM describes the mapping of Requirement's with the Test cases.
+	 -The main purpose of RTM is to see that all test cases are covered so that no functionality should miss while doing Software testing.
+  
+  - **Requirement Traceability Matrix-Parameters include**
+	  - Requirement ID
+	  - Requirement Description
+	  - Test case ID's
+
+![Screenshot 2024-10-11 193600](https://github.com/user-attachments/assets/51079591-85e8-4bfd-99ab-dd8f37ccf341)
+
+Test Environment
+--
+-  Test Environment is a platform specially build for test case execution on the software product.
+- It is created by integrating the required software and hardware along with proper network configurations.
+- Test environment simulates production/real time environment.
+- Another name of test environment is **Test Bed**.
+
+Test Execution
+--
+-  During this phase test team will carry out the testing based on the test plans and the test
+  cases prepared.
+-  **Entry Criteria: ** Test cases, Test Data & Test Plan
+-  **Activities:**
+	  - Test cases are executed based on the test planning.
+	  - Status of test cases are marked, like Passed, Failed, Blocked, Run, and others.
+	  - Documentation of test results and log defects for failed cases is done.
+	  - All the blocked and failed test cases are assigned bug ids.
+	  - Retesting once the defects are fixed.
+	  - Defects are tracked till closure.
+ - **Deliverables: ** Provides defect and test case execution report with completed results.
+
+Guidelines for Test Execution
+--
+- The Build being deployed to the QA environment is the most important part of the test execution cycle.
+- Test execution is done in Quality Assurance (QA) environment.
+- Test execution happens in multiple cycles.
+- Test execution phase consists of Executing the test cases + test scripts (if automation).
+
+Defects/Bugs
+--
+-  Any mismatched functionality found in a application is called as **Defect/Bug/Issue**.
+-  During Test Execution Test engineers are reporting mismatches as defects to developers through templates or using tools.
+- Defect Reporting Tools:
+	  - Clear Quest
+	  - DevTrack
+	  - Jira
+	  - Quality Center
+	  - Bug Jilla etc.
+
+Defect Report Contents
+--
+-  **Defect_ID** - Unique identification number for the defect.
+-  **Defect Description**-Detailed description of the defect including information about the module in which defect was found.
+-  **Version** - Version of the application in which defect was found.
+-  **Steps** -Detailed steps along with screenshots with which the developer can reproduce the defects.
+-  **Date Raised** - Date when the defect is raised
+- **Reference** - where you Provide reference to the documents like requirements, design, architecture or may be even screenshots of the error to help understand the defect
+-  **Detected By**-Name/ID of the tester who raised the defect
+-  **Status** - Status of the defect, more on this later
+- **Fixed by**-Name/ID of the developer who fixed it
+- **Date Closed** - Date when the defect is closed
+- **Severity** which describes the impact of the defect on the application
+- **Priority** which is related to defect fixing urgency. Severity Priority could be High/Medium/Low based on the impact urgency at which the defect should be fixed respectively
+
+Defect Classification
+--
+
+![Screenshot 2024-10-11 194847](https://github.com/user-attachments/assets/e86ca2e0-5d3f-48f0-b63d-b2abf6cf97f2)
+
+Defect Severity
+--
+-  Severity describes the seriousness of defect and how much impact on Business workflow.
+-  Defect severity can be categorized into four class
+	  - **Blocker (Show stopper):** This defect indicates nothing can proceed further.
+			 - Ex: Application crashed, Login Not worked
+	  - **Critical: ** The main/basic functionality is not working. Customer business workflow is broken. They cannot proceed further.
+		    - Ex1: Fund transfer is not working in net banking
+		    - Ex2: Ordering product in ecommerce application is not working.
+	  - **Major:** It cause some undesirable behavior, but the feature/application is still functional.
+		   - Ex1: After sending email there is no confirm message
+           - Ex2: After booking cab there is no confirmation.
+	  - **Minor: ** It won't cause any major break-down of the system
+		   - Ex: Look and feel issues, spellings, alignments.
+
+Defect Priority
+--
+-  Priority describes the importance of defect.
+-  Defect Priority states the order in which a defect should be fixed.
+- **Defect priority can be categorized into three class**
+	  - **PO (High): ** The defect must be resolved immediately as it affects the system severely and cannot be used until it is fixed.
+	  - **P1 (Medium): ** It can wait until a new versions/build is created
+	  - **P2 (Low): ** Developer can fix it in later releases.
+
+High severity, priority and low severity, priority defects
+--
+
+![Screenshot 2024-10-11 195952](https://github.com/user-attachments/assets/077b352a-e19f-4c1a-8776-94aa4e1b06f3)
+
+
+More examples...
+--
+-  **Low priority-Low severity-** A spelling mistake in a page not frequently navigated by users.
+-  **Low priority-High severity-** Application crashing in some very corner case.
+-  **High priority-Low severity-** Slight change in logo color or spelling mistake in company name.
+- **High priority-High severity-** Issue with login functionality. (user is not able to login to the application)
+-  **High Severity- Low Priority-** Web page not found when user clicks on a link (user does not visit that page generally)
+-  **Low Priority- Low Severity-** Any cosmetic or spelling issues which is within a paragraph or in the page
+
+Defect Resolution
+--
+-  After receiving the defect report from the testing team, development team conduct a review meeting to fix defects. Then they send a Resolution Type to the testing team for further communication.
+-  Resolution Types:-
+	  - Accept
+	  - Reject
+	  - Duplicate
+	  - Enhancement
+	  - Need more information
+	  - Not Reproducible
+	  - Fixed
+	  - As Designed
+
