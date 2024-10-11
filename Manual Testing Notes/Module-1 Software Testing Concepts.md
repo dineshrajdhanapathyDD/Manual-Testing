@@ -772,3 +772,29 @@ Error Guessing
   - Submitting a form without entering values.
   - Entering invalid values such as entering alphabets in the numeric field.
         
+
+## Manual Software Testing Part-7
+
+SDLC - Software Development Life Cycle
+--
+  - Requirement Analysis, 
+  - Design, 
+  - Coding, 
+  - Testing,
+  - Deployment, 
+  - Maintenance.
+          
+STLC - Software Testing Life Cycle
+--
+	- Requirement Analysis
+	- Test Planning
+	- Test Desing
+	- Test Execution
+	- Defect/Bug Reporting & Tracking
+	- Test Closure
+
+![Screenshot 2024-10-11 172901](https://github.com/user-attachments/assets/b7fc7072-421b-414f-96e6-73cb28f64884)
+
+
+
+![Screenshot 2024-10-11 172933](https://github.com/user-attachments/assets/4709a412-edd7-47a8-8164-956ac52cc920)
