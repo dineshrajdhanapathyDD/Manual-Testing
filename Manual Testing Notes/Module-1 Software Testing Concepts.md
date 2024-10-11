@@ -803,7 +803,7 @@ STLC - Software Testing Life Cycle
 
 
 
-## Manual Software Testing Part-7
+## Manual Software Testing Part-8
 
 
 Test Plan Contents
@@ -836,10 +836,10 @@ Use case, Test Scenario & Test Case
 		     - **Action**, which is to reach the final outcome
 		     - **Goal/Outcome**, which is the successful user outcome.
 		     
-- **Test Scenario: **
+- **Test Scenario:**
 	  - A possible area to be tested (What to test)
 	  
-- **Test Case: **
+- **Test Case:**
 	  - Step by step actions to be performed to validate functionality of AUT (How to test).
 	  - Test case contains test steps, expected result & actual result.
 
@@ -913,7 +913,7 @@ Test Execution
 --
 -  During this phase test team will carry out the testing based on the test plans and the test
   cases prepared.
--  **Entry Criteria: ** Test cases, Test Data & Test Plan
+-  **Entry Criteria:** Test cases, Test Data & Test Plan
 -  **Activities:**
 	  - Test cases are executed based on the test planning.
 	  - Status of test cases are marked, like Passed, Failed, Blocked, Run, and others.
@@ -921,7 +921,7 @@ Test Execution
 	  - All the blocked and failed test cases are assigned bug ids.
 	  - Retesting once the defects are fixed.
 	  - Defects are tracked till closure.
- - **Deliverables: ** Provides defect and test case execution report with completed results.
+ - **Deliverables:** Provides defect and test case execution report with completed results.
 
 Guidelines for Test Execution
 --
@@ -967,13 +967,13 @@ Defect Severity
 -  Defect severity can be categorized into four class
 	  - **Blocker (Show stopper):** This defect indicates nothing can proceed further.
 			 - Ex: Application crashed, Login Not worked
-	  - **Critical: ** The main/basic functionality is not working. Customer business workflow is broken. They cannot proceed further.
+	  - **Critical:** The main/basic functionality is not working. Customer business workflow is broken. They cannot proceed further.
 		    - Ex1: Fund transfer is not working in net banking
 		    - Ex2: Ordering product in ecommerce application is not working.
 	  - **Major:** It cause some undesirable behavior, but the feature/application is still functional.
 		   - Ex1: After sending email there is no confirm message
            - Ex2: After booking cab there is no confirmation.
-	  - **Minor: ** It won't cause any major break-down of the system
+	  - **Minor:** It won't cause any major break-down of the system
 		   - Ex: Look and feel issues, spellings, alignments.
 
 Defect Priority
@@ -981,9 +981,9 @@ Defect Priority
 -  Priority describes the importance of defect.
 -  Defect Priority states the order in which a defect should be fixed.
 - **Defect priority can be categorized into three class**
-	  - **PO (High): ** The defect must be resolved immediately as it affects the system severely and cannot be used until it is fixed.
-	  - **P1 (Medium): ** It can wait until a new versions/build is created
-	  - **P2 (Low): ** Developer can fix it in later releases.
+	  - **PO (High):** The defect must be resolved immediately as it affects the system severely and cannot be used until it is fixed.
+	  - **P1 (Medium):** It can wait until a new versions/build is created
+	  - **P2 (Low):** Developer can fix it in later releases.
 
 High severity, priority and low severity, priority defects
 --
