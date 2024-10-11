@@ -718,7 +718,8 @@ Enter a Age:                           * Allow Digits from 18--35
 ```
           Min = 18 (Pass)    Max = 35 (Pass)
           Min-1 =17 (Fail)    Max-1 =34 (Pass)
-          Min+1 =19 (Pass)   Max+1 =36 (Fail)```
+          Min+1 =19 (Pass)   Max+1 =36 (Fail)
+```
 
 Input domain testing
 --
