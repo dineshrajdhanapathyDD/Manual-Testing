@@ -660,3 +660,114 @@ Globalization and Localization Testing
 	- Localized product only supports the specific kind of language and is usable only in specific region.
 	- It testes the specific currency format, mobile number format and address format is working properly or not.
 	- For example, Baidu.com supports only the Chinese language and can be accessed only by people of few countries. Hence it is a localized product.
+
+
+
+ ## Manual Software Testing Part-6
+
+- Test Design Techniques/Test Data Design Techniques/Test case Design Techniques
+-Used to prepare data for testing.
+  1) Reduce the Data
+  2) More Coverage
+	
+Test Design Techniques
+--
+- Test design techniques helps to design better cases.
+- Reduce the number of test cases to be executed.
+  
+- Techniques:
+  - Equivalence Class Partitioning
+  - Boundary Value Analysis (BVA)
+  - Decision Table based testing.
+  - State Transition
+  - Error Guessing
+
+Equivalence Class Partition (ECP)
+--
+- Partition data into various classes and we can select data according to class then test. It reduces the number of test-cases and saves time for testing.
+- Value check
+- classify/divide/partition the data into multiple classes
+
+ 
+Enter a Number:                         * Allow Digits from 1--500
+
+ ```
+  Normal Test Data : 1,2,3,4,5,6,7,8....500
+  Divide values into Equivalence : -100 to 0 -> -50 (invalid), 1 to 100 -> 30 (valid)
+  Test Data using ЕСР : -50 , 30
+```
+###  add table for example
+
+Name:                                  * Allow only alphabets
+
+|Divide values into Equivalence Classes| Test Data using ЕСР|
+|------------------------|------------------|
+|A..Z (Valid)|XYZ |
+|a..z (Valid)| zyz |                                       
+|Special Characters (Invalid)|@#$%|
+|Spaces 250 (Invalid)|Ху Z  |
+|Numbers --> 320(Invalid) |  1234|                              
+
+
+Boundary Value Analysis (BVA)
+--
+- BVA technique used to check Boundaries of the input.
+    
+Enter a Age:                           * Allow Digits from 18--35
+
+```
+          Min = 18 (Pass)    Max = 35 (Pass)
+          Min-1 =17 (Fail)    Max-1 =34 (Pass)
+          Min+1 =19 (Pass)   Max+1 =36 (Fail)```
+
+Input domain testing
+--
+- The value will be verified in the text box/input fields.
+- We use ЕСР & BVA techniques
+                               
+Decision Table
+--
+- Decision Table is also called as Cause-Effect Table.
+- This technique will be used if we have more conditions and corresponding actions.
+- In Decision table technique, we deal with combinations of inputs.
+- To identify the test cases with decision table, we consider conditions and actions.
+
+Decision Table Example
+--
+- Take an example of transferring money online to an account which is already added and approved.
+- If we have more number of conditions /actions then we use decision table technique.
+
+- Here the conditions to transfer money are
+	- Account already approved
+	- ОТР (one time password) matched
+	- Sufficient money in the account
+- And the actions performed are
+	- Transfer money
+	- Show a message as insufficient amount
+	- Block the transaction in case of suspicious transaction
+
+![Screenshot 2024-10-11 162314](https://github.com/user-attachments/assets/967db493-02d4-4625-b505-bb2cc9809aaa)
+
+   
+State Transition
+--
+- In State Transition technique changes in input conditions change the state of the Application.
+- This testing technique allows the tester to test the behavior of an AUT.
+- The tester can perform this action by entering various input conditions in a sequence.
+-  In State transition technique, the testing team provides positive as well as negative input test values for evaluating the system behavior.
+
+State Transition Example
+--
+-  Take an example of login page of an application which locks the username after three wrong attempts of password.
+
+![Screenshot 2024-10-11 162805](https://github.com/user-attachments/assets/c1d43608-e07b-4e54-a95f-a9a223ffbe0b)
+ 
+Error Guessing
+--
+-  Error guessing is one of the testing techniques used to find bugs in a software application based on tester's prior experience.
+- In Error guessing we don't follow any specific rules.
+- It depends on Tester Analytical skills and experience.
+- Some of the examples are:
+  - Submitting a form without entering values.
+  - Entering invalid values such as entering alphabets in the numeric field.
+        
