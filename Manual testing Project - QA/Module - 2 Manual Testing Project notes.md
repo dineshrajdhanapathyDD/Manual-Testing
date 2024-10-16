@@ -63,19 +63,27 @@ Download Link: https://www.apachefriends.org/download.html
 
 
 Step by step XAMPP Installation:
+
+- Setup XAMPP
+
+![Screenshot 2024-10-16 180938](https://github.com/user-attachments/assets/d7793dc1-39f6-40f9-9478-2cf3160ce5b4)
+
+
+![Screenshot 2024-10-16 180927](https://github.com/user-attachments/assets/1c71b569-4dce-4006-8499-04d99b0e59ea)
+
+
+- Finish setup
+
+![Screenshot 2024-10-16 180913](https://github.com/user-attachments/assets/8109eb48-1802-4fd6-bdd8-b54f1e79cdd3)
+
 - start XAMPP
-![Screenshot 2024-10-16 180838](https://github.com/user-attachments/assets/11f5471b-8dd8-4a06-9236-41676d727bc3)
 
 ![Screenshot 2024-10-16 180856](https://github.com/user-attachments/assets/91056905-f7fe-470e-8191-d927a1c111f9)
 
-- Finish setup
-![Screenshot 2024-10-16 180913](https://github.com/user-attachments/assets/8109eb48-1802-4fd6-bdd8-b54f1e79cdd3)
-
-- Start XAMPP
-![Screenshot 2024-10-16 180927](https://github.com/user-attachments/assets/1c71b569-4dce-4006-8499-04d99b0e59ea)
-
 - Run XAMPP
-![Screenshot 2024-10-16 180938](https://github.com/user-attachments/assets/d7793dc1-39f6-40f9-9478-2cf3160ce5b4)
+
+![Screenshot 2024-10-16 180838](https://github.com/user-attachments/assets/11f5471b-8dd8-4a06-9236-41676d727bc3)
+
 
 
 ```
