@@ -1,8 +1,8 @@
 ### Manual Software Testing 
 
-**Module 1: Testing concepts (Theory) What?**
+**Module 1: Testing concepts (Theory) What?** [Testing Concepts Notes](https://github.com/dineshrajdhanapathyDD/Manual-Testing/blob/main/Manual%20Testing%20Notes/Module-1%20Software%20Testing%20Concepts.md)
 
-**Module 2: Testing Project (Practical) How?**
+**Module 2: Testing Project (Practical) How?**[Testing Project Notes](https://github.com/dineshrajdhanapathyDD/Manual-Testing/blob/main/Manual%20testing%20Project%20-%20QA/Module%20-%202%20Manual%20Testing%20Project%20notes.md)
 
 **Module 3: Agile process - Jira**
 
