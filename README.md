@@ -4,7 +4,7 @@
 
 **Module 2: Testing Project (Practical) How?**[Testing Project Notes](https://github.com/dineshrajdhanapathyDD/Manual-Testing/blob/main/Manual%20testing%20Project%20-%20QA/Module%20-%202%20Manual%20Testing%20Project%20notes.md)
 
-**Module 3: Agile process - Jira**
+**Module 3: Agile process - Jira** [Agile & JIRA Process](https://github.com/dineshrajdhanapathyDD/Manual-Testing/blob/main/Agile%20Testing%20%2B%20Jira%20Tool/Module-3%20Agile%20Process.md)
 
 ## Manual Testing
 
